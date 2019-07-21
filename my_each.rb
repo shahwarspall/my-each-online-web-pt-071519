@@ -2,7 +2,7 @@
 def my_each(collection)
    i = 0
  
-  while i <  collection.lendgth
+  while i <  collection.split
     yield(collection[i])
     i = i + 1
   end
